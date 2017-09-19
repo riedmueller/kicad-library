@@ -76,6 +76,10 @@ K Simblee ARM Cortex-M0 Bluetooth antenna
 F https://www.simblee.com/Simblee%20RFD77101%20Datasheet%20v1.0.pdf
 $ENDCMP
 #
+$CMP RFM12S
+K RFM12 RFM12B RFM12BW 
+$ENDCMP
+#
 $CMP RN42
 D Class 2 Bluetooth Module with on-board antenna
 K Bluetooth Module
