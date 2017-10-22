@@ -114,6 +114,12 @@ K MOSFET Driver IGBT Driver Optocoupler
 F http://www.avagotech.com/docs/AV02-2928EN
 $ENDCMP
 #
+$CMP APDS-9301
+D ambient light sensor, i2c interface, 2.7-3.6V
+K ambient light sensor i2c
+F https://docs.broadcom.com/docs/AV02-2315EN
+$ENDCMP
+#
 $CMP ASMT-YTC2-0AA02
 D Triple LED RVB (Avago Technology)
 K LED RGB
@@ -432,6 +438,12 @@ K NPN phototransistor
 F http://www.osram-os.com/Graphics/XPic4/00209607_0.pdf/LPT%2080A.pdf
 $ENDCMP
 #
+$CMP LTR-303ALS-01
+D ambient light sensor, i2c interface, 0.01 to 64k lux, 2.4-3.6V
+K ambient light sensor i2c
+F http://optoelectronics.liteon.com/upload/download/DS86-2013-0004/LTR-303ALS-01_DS_V1.pdf
+$ENDCMP
+#
 $CMP LTV-352T
 D DC Darlington Optocoupler, Vce 300V, CTR 1000%, SO-4
 K NPN Darlington DC Optocoupler
@@ -648,6 +660,12 @@ K Opto-Triac Opto Triac Zero Cross
 F http://www.fairchildsemi.com/ds/MO/MOC3061M.pdf
 $ENDCMP
 #
+$CMP NSL-32
+D Optocoupler, LED Input, Photocell Output
+K optocoupler
+F http://lunainc.com/wp-content/uploads/2016/06/NSL-32.pdf
+$ENDCMP
+#
 $CMP PC3H4
 D AC/DC Optocoupler, Vce 70V, CTR 100-250%, SOP4
 K NPN AC DC Optocoupler
@@ -706,6 +724,12 @@ $CMP PLT5_510
 D Green Laser Diode (510nm), TO-38
 K opto laserdiode
 F http://www.osram-os.com/Graphics/XPic2/00227065_0.pdf/PLT5%20510.pdf
+$ENDCMP
+#
+$CMP QSE159
+D Plastic Silicon Photosensor
+K opto IR
+F http://www.onsemi.com/pub/Collateral/QSE159-D.pdf
 $ENDCMP
 #
 $CMP S102S01
@@ -1426,6 +1450,12 @@ $CMP TSOP345xx
 D IR Receiver Modules for Remote Control Systems
 K opto IR receiver
 F http://www.vishay.com/docs/82490/tsop321.pdf
+$ENDCMP
+#
+$CMP TSOP348xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F https://www.vishay.com/docs/82489/tsop322.pdf
 $ENDCMP
 #
 $CMP TSOP34S40F
